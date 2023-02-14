@@ -1,0 +1,95 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body-inicio{
+    display:grid;
+    grid-gap:1rem;
+    grid-template-rows: auto 1fr auto;
+    min-height:100vh;
+    grid-template-areas:
+     "header header"
+     "section section"
+     "footer footer"; 
+}
+
+/*La Barra de navegacion*/
+
+header{  
+    position: sticky;
+    top:0px;
+    z-index:2;
+    grid-area:header;
+}
+
+.fondo-nav{
+    background-color: #13245c;
+}
+
+.logo{
+    max-width: 8%;
+    position:relative;
+    top:4px;
+}
+
+.logo2{
+    max-width: 8%;
+    position:relative;
+    top: 18px;
+    left: 10px;
+}
+
+/* Estilo de la pagina Inicial*/
+
+section{
+    grid-area:section;
+}
+
+/* Estilo de la pagina ubicacion */
+
+/* Estilo de la pagina de Productos */
+
+/* Estilo de la pagina de Nosotros */
+.marcas{
+    display:flex;
+    justify-content:center;
+}
+.logos{
+    max-width: 13%;
+}
+
+/* Estilo de la pagina de Contacto */
+
+/* Footer */
+footer{
+    background-color: #13245c;
+    grid-area:footer;
+}
+.footer-style {
+    font-size: 1.5;
+    position: relative;
+    left: 15px;
+    color:black
+}
+
+#instagram{
+    position: relative;
+    top:0px;
+    left:10px;
+    color:black
+}
+#facebook {
+    position:relative;
+    top: 0px;
+    left: 15px;
+    color:black;
+}
+#tiktok {
+    position:relative;
+    top: 0px;
+    left: 23px;
+    color:black; 
+}
