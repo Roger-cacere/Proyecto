@@ -1,0 +1,22 @@
+{
+  "name": "desarrollo-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile":"sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roger-cacere/Desarrollo-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roger-cacere/Desarrollo-web/issues"
+  },
+  "homepage": "https://github.com/Roger-cacere/Desarrollo-web#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

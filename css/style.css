@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-inicio {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  grid-template-areas: "header header" "section section" "footer footer";
+}
+
+/*La Barra de navegacion*/
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  grid-area: header;
+}
+
+.fondo-nav {
+  background-color: #13245c;
+}
+
+.logo {
+  max-width: 8%;
+  position: relative;
+  top: 4px;
+}
+
+.logo2 {
+  max-width: 8%;
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+/* Estilo de la pagina Inicial*/
+section {
+  grid-area: section;
+}
+
+/* Estilo de la pagina ubicacion */
+/* Estilo de la pagina de Productos */
+/* Estilo de la pagina de Nosotros */
+.marcas {
+  display: flex;
+  justify-content: center;
+}
+
+.logos {
+  max-width: 13%;
+}
+
+/* Estilo de la pagina de Contacto */
+.container-button {
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer */
+footer {
+  background-color: #13245c;
+  grid-area: footer;
+}
+
+.footer-style {
+  font-size: 1.5;
+  position: relative;
+  left: 15px;
+  color: black;
+}
+
+#instagram {
+  position: relative;
+  top: 0px;
+  left: 10px;
+  color: black;
+}
+
+#facebook {
+  position: relative;
+  top: 0px;
+  left: 15px;
+  color: black;
+}
+
+#tiktok {
+  position: relative;
+  top: 0px;
+  left: 23px;
+  color: black;
+}
+
+/* Media queries */
+@media screen and (min-width: 350px) and (max-width: 1199px) {
+  .container-cuerpo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 859px) and (max-width: 1199px) {
+  .container-cuerpo {
+    width: 100;
+  }
+  /* Posible cambio de letra */
+}
+@media screen and (min-width: 1200px) {
+  .container-cuerpo {
+    width: 100%;
+  }
+  .fondo-nav {
+    background-color: rgb(248, 11, 11);
+  }
+  footer {
+    background-color: rgb(248, 11, 11);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
