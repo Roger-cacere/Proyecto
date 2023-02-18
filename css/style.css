@@ -60,6 +60,10 @@ section {
   justify-content: center;
 }
 
+.logo-instagram {
+  max-width: 12%;
+}
+
 /* Footer */
 footer {
   background-color: #13245c;
@@ -111,12 +115,6 @@ footer {
 @media screen and (min-width: 1200px) {
   .container-cuerpo {
     width: 100%;
-  }
-  .fondo-nav {
-    background-color: rgb(248, 11, 11);
-  }
-  footer {
-    background-color: rgb(248, 11, 11);
   }
 }
 
