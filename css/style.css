@@ -4,20 +4,10 @@
   box-sizing: border-box;
 }
 
-.body-inicio {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
-  grid-template-areas: "header header" "section section" "footer footer";
-}
-
 /*La Barra de navegacion*/
 header {
   position: sticky;
   top: 0px;
-  z-index: 2;
-  grid-area: header;
 }
 
 .fondo-nav {
@@ -38,10 +28,6 @@ header {
 }
 
 /* Estilo de la pagina Inicial*/
-section {
-  grid-area: section;
-}
-
 /* Estilo de la pagina ubicacion */
 /* Estilo de la pagina de Productos */
 /* Estilo de la pagina de Nosotros */
@@ -60,10 +46,6 @@ section {
   justify-content: center;
 }
 
-.logo-instagram {
-  max-width: 12%;
-}
-
 /* Footer */
 footer {
   background-color: #13245c;
@@ -71,51 +53,70 @@ footer {
 }
 
 .footer-style {
-  font-size: 1.5;
+  font-size: 1;
   position: relative;
-  left: 15px;
-  color: black;
+  left: 8px;
+  color: rgb(247, 222, 5);
 }
 
-#instagram {
+.icono, .icono--tiktok, .icono--facebook, .icono--instagram {
   position: relative;
   top: 0px;
+  color: rgb(247, 222, 5);
+}
+
+.icono--instagram {
   left: 10px;
-  color: black;
 }
 
-#facebook {
-  position: relative;
-  top: 0px;
+.icono--facebook {
   left: 15px;
-  color: black;
 }
 
-#tiktok {
-  position: relative;
-  top: 0px;
+.icono--tiktok {
   left: 23px;
-  color: black;
 }
 
 /* Media queries */
-@media screen and (min-width: 350px) and (max-width: 1199px) {
-  .container-cuerpo {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
+/*
+@include media-breakpoint-up(sm) { 
+    .container-cuerpo{
+        display:flex;
+        flex-direction:column;
+        width: 100%;
+        background-color: orange;
+    }
+ }
+
+@include media-breakpoint-up(md) { 
+    .container-cuerpo{
+        display:flex;
+        flex-direction:column;
+        width: 100%;
+        background-color: orange;
+    }
+ }
+
+@include media-breakpoint-up(lg) { 
+    .container-cuerpo{
+        width:100;
+        background-color:rgb(72, 243, 66);
+    }
+ }
+
+@include media-breakpoint-up(xl) { 
+    .container-cuerpo{
+        width:100;
+        background-color: purple;
+    }
 }
-@media screen and (min-width: 859px) and (max-width: 1199px) {
-  .container-cuerpo {
-    width: 100;
-  }
-  /* Posible cambio de letra */
-}
-@media screen and (min-width: 1200px) {
-  .container-cuerpo {
-    width: 100%;
-  }
-}
+
+@include media-breakpoint-up(xxl) { 
+    .container-cuerpo{
+        width:100;
+        background-color: purple;
+    }
+ }
+*/
 
 /*# sourceMappingURL=style.css.map */
