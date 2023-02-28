@@ -78,45 +78,5 @@ footer {
 }
 
 /* Media queries */
-/*
-@include media-breakpoint-up(sm) { 
-    .container-cuerpo{
-        display:flex;
-        flex-direction:column;
-        width: 100%;
-        background-color: orange;
-    }
- }
-
-@include media-breakpoint-up(md) { 
-    .container-cuerpo{
-        display:flex;
-        flex-direction:column;
-        width: 100%;
-        background-color: orange;
-    }
- }
-
-@include media-breakpoint-up(lg) { 
-    .container-cuerpo{
-        width:100;
-        background-color:rgb(72, 243, 66);
-    }
- }
-
-@include media-breakpoint-up(xl) { 
-    .container-cuerpo{
-        width:100;
-        background-color: purple;
-    }
-}
-
-@include media-breakpoint-up(xxl) { 
-    .container-cuerpo{
-        width:100;
-        background-color: purple;
-    }
- }
-*/
 
 /*# sourceMappingURL=style.css.map */
